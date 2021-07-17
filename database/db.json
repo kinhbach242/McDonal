@@ -1,0 +1,564 @@
+{
+  "cat": [
+    {
+      "id": 1,
+      "nameCat": "Bánh mì Muffin",
+      "daBan": 1000
+    },
+    {
+      "id": 2,
+      "nameCat": "Đồ uống",
+      "daBan": 2025
+    },
+    {
+      "id": 3,
+      "nameCat": "Tráng miệng",
+      "daBan": 1150
+    },
+    {
+      "id": 4,
+      "nameCat": "Phần ăn trẻ em",
+      "daBan": 560
+    },
+    {
+      "nameCat": "ssss",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "title": "Muffin xúc xích, phô-mai đặc biệt",
+      "id": 1,
+      "idCat": 1,
+      "price": 35000,
+      "image": "./images/muffin/1.png"
+    },
+    {
+      "title": "Muffin ốp la",
+      "id": 2,
+      "idCat": 1,
+      "price": 39000,
+      "image": "./images/muffin/2.png"
+    },
+    {
+      "title": "Muffin gà",
+      "id": 3,
+      "idCat": 1,
+      "price": 39000,
+      "image": "./images/muffin/3.png"
+    },
+    {
+      "title": "Muffin ốp la, phô mai",
+      "id": 4,
+      "idCat": 1,
+      "price": 45000,
+      "image": "./images/muffin/4.png"
+    },
+    {
+      "title": "Sữa tươi TH True Milk - 108",
+      "id": 5,
+      "idCat": 2,
+      "price": 20000,
+      "image": "./images/drink/5.png"
+    },
+    {
+      "title": "Fanta®",
+      "id": 6,
+      "idCat": 2,
+      "price": 15000,
+      "image": "./images/drink/6.png"
+    },
+    {
+      "title": "Nước cam - 188 Kcal",
+      "id": 7,
+      "idCat": 2,
+      "price": 20000,
+      "image": "./images/drink/7.png"
+    },
+    {
+      "title": "Nước suối",
+      "id": 8,
+      "idCat": 2,
+      "price": 20000,
+      "image": "./images/drink/8.png"
+    },
+    {
+      "title": "Sprite®",
+      "id": 9,
+      "idCat": 2,
+      "price": 20000,
+      "image": "./images/drink/9.png"
+    },
+    {
+      "title": "Coca-Cola® - 150 Kcal",
+      "id": 10,
+      "idCat": 2,
+      "price": 20000,
+      "image": "./images/drink/10.png"
+    },
+    {
+      "title": "Milo™ - 110 Kcal",
+      "id": 11,
+      "idCat": 2,
+      "price": 20000,
+      "image": "./images/drink/11.png"
+    },
+    {
+      "title": "Kem ốc quế",
+      "id": 12,
+      "idCat": 3,
+      "price": 10000,
+      "image": "./images/trangmieng/13.png"
+    },
+    {
+      "title": "Bánh táo nướng",
+      "id": 14,
+      "idCat": 3,
+      "price": 25000,
+      "image": "./images/trangmieng/14.png"
+    },
+    {
+      "title": "Kem McSundae™ sốt Sôcôla",
+      "id": 15,
+      "idCat": 3,
+      "price": 29000,
+      "image": "./images/trangmieng/15.png"
+    },
+    {
+      "title": "Kem McSundae™ sốt Dâu",
+      "id": 16,
+      "idCat": 3,
+      "price": 29000,
+      "image": "./images/trangmieng/16.png"
+    },
+    {
+      "title": "Kem xay bánh Oreo™",
+      "id": 17,
+      "idCat": 3,
+      "price": 29000,
+      "image": "./images/trangmieng/17.png"
+    },
+    {
+      "title": "Burger Heo - 337 Kcal",
+      "id": 18,
+      "idCat": 4,
+      "price": 32000,
+      "image": "./images/baby/1.png"
+    },
+    {
+      "title": "Burger bò truyền thống",
+      "id": 19,
+      "idCat": 4,
+      "price": 32000,
+      "image": "./images/baby/2.png"
+    },
+    {
+      "title": "Burger bò phô-mai - 323 Kcal",
+      "id": 20,
+      "idCat": 4,
+      "price": 39000,
+      "image": "./images/baby/3.png"
+    },
+    {
+      "title": "Muffin Gà HM",
+      "id": 21,
+      "idCat": 4,
+      "price": 68000,
+      "image": "./images/baby/4.png"
+    },
+    {
+      "title": "Muffin Trứng HM",
+      "id": 22,
+      "idCat": 4,
+      "price": 68000,
+      "image": "./images/baby/5.png"
+    },
+    {
+      "title": "Happy Meal Gà Rán",
+      "id": 23,
+      "idCat": 4,
+      "price": 68000,
+      "image": "./images/baby/6.png"
+    },
+    {
+      "title": "HM 4 miếng gà McNuggets",
+      "id": 24,
+      "idCat": 4,
+      "price": 68000,
+      "image": "./images/baby/7.png"
+    },
+    {
+      "title": "Happy Meal Burger Bò Phô Mai",
+      "id": 24,
+      "idCat": 4,
+      "price": 68000,
+      "image": "./images/baby/8.png"
+    },
+    {
+      "title": "kịnh",
+      "price": "30000",
+      "idCat": "2",
+      "id": 25
+    }
+  ],
+  "orders": [
+    {
+      "customer": {
+        "fullname": "Kính",
+        "phoneNumber": "0344334303",
+        "address": "Hồ Chí Minh"
+      },
+      "product": [
+        {
+          "title": "Sữa tươi TH True Milk - 108",
+          "id": "5",
+          "idCat": 2,
+          "price": 20000,
+          "image": "./images/drink/5.png",
+          "quantity": 1,
+          "size": 1,
+          "unitPrice": "20000.00"
+        }
+      ],
+      "total": 20000,
+      "id": 2
+    },
+    {
+      "customer": {
+        "fullname": "bạch đường kính",
+        "phoneNumber": "0344222",
+        "address": "Hồ Chí Minh"
+      },
+      "product": [
+        {
+          "title": "Sữa tươi TH True Milk - 108",
+          "id": "5",
+          "idCat": 2,
+          "price": 20000,
+          "image": "./images/drink/5.png",
+          "quantity": 1,
+          "size": 1,
+          "unitPrice": "20000.00"
+        },
+        {
+          "title": "Fanta®",
+          "id": "6",
+          "idCat": 2,
+          "price": 15000,
+          "image": "./images/drink/6.png",
+          "quantity": 1,
+          "size": 1,
+          "unitPrice": "15000.00"
+        },
+        {
+          "title": "Nước suối",
+          "id": "8",
+          "idCat": 2,
+          "price": 20000,
+          "image": "./images/drink/8.png",
+          "quantity": 1,
+          "size": 1,
+          "unitPrice": "20000.00"
+        }
+      ],
+      "total": 55000,
+      "id": 3
+    },
+    {
+      "customer": {
+        "fullname": "Kinh Bach",
+        "phoneNumber": "0344334303",
+        "address": "Hồ Chí Minh"
+      },
+      "product": [
+        {
+          "title": "Muffin ốp la",
+          "id": "2",
+          "idCat": 1,
+          "price": 39000,
+          "image": "./images/muffin/2.png",
+          "quantity": 1,
+          "size": 1,
+          "unitPrice": "39000.00"
+        },
+        {
+          "title": "Sữa tươi TH True Milk - 108",
+          "id": "5",
+          "idCat": 2,
+          "price": 20000,
+          "image": "./images/drink/5.png",
+          "quantity": 1,
+          "size": 1,
+          "unitPrice": "20000.00"
+        }
+      ],
+      "total": 59000,
+      "id": 4
+    },
+    {
+      "customer": {
+        "fullname": "Thầy chấn",
+        "phoneNumber": "113",
+        "address": "Hồ Chí Minh"
+      },
+      "product": [
+        {
+          "title": "Muffin xúc xích, phô-mai đặc biệt",
+          "id": "1",
+          "idCat": 1,
+          "price": 35000,
+          "image": "./images/muffin/1.png",
+          "quantity": 1,
+          "size": 1,
+          "unitPrice": "35000.00"
+        },
+        {
+          "title": "Muffin ốp la",
+          "id": "2",
+          "idCat": 1,
+          "price": 39000,
+          "image": "./images/muffin/2.png",
+          "quantity": 1,
+          "size": 1,
+          "unitPrice": "39000.00"
+        }
+      ],
+      "total": 74000,
+      "id": 5
+    },
+    {
+      "customer": {
+        "fullname": "Datt ML",
+        "phoneNumber": "0344334303",
+        "address": "Hồ Chí Minh"
+      },
+      "product": [
+        {
+          "title": "Muffin ốp la",
+          "id": "2",
+          "idCat": 1,
+          "price": 39000,
+          "image": "./images/muffin/2.png",
+          "quantity": 1,
+          "size": 1,
+          "unitPrice": "39000.00"
+        },
+        {
+          "title": "Muffin gà",
+          "id": "3",
+          "idCat": 1,
+          "price": 39000,
+          "image": "./images/muffin/3.png",
+          "quantity": 1,
+          "size": 1,
+          "unitPrice": "39000.00"
+        }
+      ],
+      "total": 78000,
+      "id": 6
+    },
+    {
+      "customer": {
+        "fullname": "Kính",
+        "phoneNumber": "0344334303",
+        "address": "Hồ Chí Minh"
+      },
+      "product": [
+        {
+          "title": "Sữa tươi TH True Milk - 108",
+          "id": "5",
+          "idCat": 2,
+          "price": 20000,
+          "image": "./images/drink/5.png",
+          "quantity": 1,
+          "size": 1,
+          "unitPrice": "20000.00"
+        }
+      ],
+      "total": 20000,
+      "id": 7
+    }
+  ],
+  "orderDetail": [
+    {
+      "customer": {
+        "fullname": "Kính",
+        "phoneNumber": "0344334303",
+        "address": "Hồ Chí Minh"
+      },
+      "product": {
+        "title": "Sữa tươi TH True Milk - 108",
+        "id": "5",
+        "idCat": 2,
+        "price": 20000,
+        "image": "./images/drink/5.png",
+        "quantity": 1,
+        "size": 1,
+        "unitPrice": "20000.00"
+      },
+      "id": 2
+    },
+    {
+      "customer": {
+        "fullname": "bạch đường kính",
+        "phoneNumber": "0344222",
+        "address": "Hồ Chí Minh"
+      },
+      "product": {
+        "title": "Sữa tươi TH True Milk - 108",
+        "id": "5",
+        "idCat": 2,
+        "price": 20000,
+        "image": "./images/drink/5.png",
+        "quantity": 1,
+        "size": 1,
+        "unitPrice": "20000.00"
+      },
+      "id": 3
+    },
+    {
+      "customer": {
+        "fullname": "bạch đường kính",
+        "phoneNumber": "0344222",
+        "address": "Hồ Chí Minh"
+      },
+      "product": {
+        "title": "Fanta®",
+        "id": "6",
+        "idCat": 2,
+        "price": 15000,
+        "image": "./images/drink/6.png",
+        "quantity": 1,
+        "size": 1,
+        "unitPrice": "15000.00"
+      },
+      "id": 4
+    },
+    {
+      "customer": {
+        "fullname": "Kinh Bach",
+        "phoneNumber": "0344334303",
+        "address": "Hồ Chí Minh"
+      },
+      "product": {
+        "title": "Muffin ốp la",
+        "id": "2",
+        "idCat": 1,
+        "price": 39000,
+        "image": "./images/muffin/2.png",
+        "quantity": 1,
+        "size": 1,
+        "unitPrice": "39000.00"
+      },
+      "id": 5
+    },
+    {
+      "customer": {
+        "fullname": "Kinh Bach",
+        "phoneNumber": "0344334303",
+        "address": "Hồ Chí Minh"
+      },
+      "product": {
+        "title": "Sữa tươi TH True Milk - 108",
+        "id": "5",
+        "idCat": 2,
+        "price": 20000,
+        "image": "./images/drink/5.png",
+        "quantity": 1,
+        "size": 1,
+        "unitPrice": "20000.00"
+      },
+      "id": 6
+    },
+    {
+      "customer": {
+        "fullname": "Thầy chấn",
+        "phoneNumber": "113",
+        "address": "Hồ Chí Minh"
+      },
+      "product": {
+        "title": "Muffin xúc xích, phô-mai đặc biệt",
+        "id": "1",
+        "idCat": 1,
+        "price": 35000,
+        "image": "./images/muffin/1.png",
+        "quantity": 1,
+        "size": 1,
+        "unitPrice": "35000.00"
+      },
+      "id": 7
+    },
+    {
+      "customer": {
+        "fullname": "Thầy chấn",
+        "phoneNumber": "113",
+        "address": "Hồ Chí Minh"
+      },
+      "product": {
+        "title": "Muffin ốp la",
+        "id": "2",
+        "idCat": 1,
+        "price": 39000,
+        "image": "./images/muffin/2.png",
+        "quantity": 1,
+        "size": 1,
+        "unitPrice": "39000.00"
+      },
+      "id": 8
+    },
+    {
+      "customer": {
+        "fullname": "Datt ML",
+        "phoneNumber": "0344334303",
+        "address": "Hồ Chí Minh"
+      },
+      "product": {
+        "title": "Muffin ốp la",
+        "id": "2",
+        "idCat": 1,
+        "price": 39000,
+        "image": "./images/muffin/2.png",
+        "quantity": 1,
+        "size": 1,
+        "unitPrice": "39000.00"
+      },
+      "id": 9
+    },
+    {
+      "customer": {
+        "fullname": "Datt ML",
+        "phoneNumber": "0344334303",
+        "address": "Hồ Chí Minh"
+      },
+      "product": {
+        "title": "Muffin gà",
+        "id": "3",
+        "idCat": 1,
+        "price": 39000,
+        "image": "./images/muffin/3.png",
+        "quantity": 1,
+        "size": 1,
+        "unitPrice": "39000.00"
+      },
+      "id": 10
+    },
+    {
+      "customer": {
+        "fullname": "Kính",
+        "phoneNumber": "0344334303",
+        "address": "Hồ Chí Minh"
+      },
+      "product": {
+        "title": "Sữa tươi TH True Milk - 108",
+        "id": "5",
+        "idCat": 2,
+        "price": 20000,
+        "image": "./images/drink/5.png",
+        "quantity": 1,
+        "size": 1,
+        "unitPrice": "20000.00"
+      },
+      "id": 11
+    }
+  ]
+}

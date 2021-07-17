@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang quản trị || McDonald's </title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css">
+    <script src="https://kit.fontawesome.com/a00b7d7856.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.0.0.min.js"></script>
+</head>
+<body  class="preloading">
+    
+    <div class="loader">
+        <img class="icon" src="./images/loading/Double Ring-1s-200px.gif" alt="">
+    </div>  
+<div class="admin">
+    <section id="layoutAM">
+
+    </section>
+    <div class="logo">
+        <p>QUẢN LÝ SẢN PHẨM</p>
+    </div>
+    <div class="content page">
+        <div class="tableItem">
+            <button id="btnModal" class="btn-success btn-modal">Thêm sản phẩm</button>
+
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            
+                            <div class="form-area">
+                                <h2 style="margin-bottom:15px; color:firebrick;" class="title-modal">Thêm sản phẩm</h2>
+                                <form enctype="multipart/form-data">
+                                    <div class="form-group">
+                                        <label class="input-group-text col-md-2"><span style="color: red;">*</span> Tên: </label>
+                                        <input type="text" name="name" id="name" class="form-control">
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <label class="input-group-text col-md-2"> ID loại: </label>
+                                        <input type="text" name="category"  id="idCat"  class="form-control">
+                                    </div>
+            
+                             
+                                    <div class="form-group">
+                                        <label class="input-group-text col-md-2"> Giá: </label>
+                                        <input type="text" name="new-price"  id="price"  class="form-control">
+                                    </div>
+                                  
+                                    <div class="form-group">
+                                        <label class="input-group-text col-md-2"><span style="color: red;">*</span>Ảnh: </label>
+                                        <input type="file" name="imageUrl" id="img" class="form-control" multiple accept="image/png, .jpeg, .jpg, image/gif">
+                                    </div>
+                                 
+                                    <input type="hidden" id="id" value=0>
+                                    <small>Chú thích: (<span style="color: red;">*</span>) là bắt buộc</small>
+                                    <button type="submit" class="btn-submit">Add</button>
+                                </form>
+                            </div>
+                            <span class="close">&times;</span>
+                        </div>
+
+                        </div>
+                        <div class="right__tableWrapper">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Tên</th>
+                                        <th>Ảnh sản phẩm</th>
+                                        <th>Giá</th>
+                                        <th>idCat</th>
+                                        <th>Delete</th>
+                                        <th>Edit</th>
+                                       
+                                    </tr>
+                                </thead>
+                    
+                                <tbody id="content">
+                                       
+                                </tbody>
+                            </table>
+                        </div>
+        </div>        
+    </div>
+</div>
+    </body>
+    </html>
+    <script src="./js/layoutAM.js"></script>
+    <script src="./js/loading.js"></script>
+    <script src="./js/product-list.js" type="module"></script>

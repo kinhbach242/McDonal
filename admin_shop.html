@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang quản trị || McDonald's </title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css">
+    <script src="https://kit.fontawesome.com/a00b7d7856.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.0.0.min.js"></script>
+</head>
+<body  class="preloading">
+    
+    <div class="loader">
+        <img class="icon" src="./images/loading/Double Ring-1s-200px.gif" alt="">
+    </div>  
+<div class="admin">
+    <section id="layoutAM">
+
+    </section>
+    <div class="logo">
+        <p>QUẢN LÝ SẢN PHẨM</p>
+    </div>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            
+            <div class="form-area">
+                <h2 style="margin-bottom:15px; color:firebrick;" class="title-modal">Add Product</h2>
+                <form enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label class="input-group-text col-md-2"><span style="color: red;">*</span> Name: </label>
+                        <input type="text" name="name" id="name" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="input-group-text col-md-2"><span style="color: red;">*</span>Category: </label>
+                        <select name="category" id="category">
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="input-group-text col-md-2">Old price: </label>
+                        <input type="text" name="old-price" id="oldPrice" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="input-group-text col-md-2">New price: </label>
+                        <input type="text" name="new-price"  id="newPrice"  class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="input-group-text col-md-2"><span style="color: red;">*</span>Description: </label>
+                        <textarea type="text" name="description" id="description"  class="form-control" cols="50" rows="5" ></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="input-group-text col-md-2"><span style="color: red;">*</span>Image: </label>
+                        <input type="file" name="imageUrl" id="img" class="form-control" multiple accept="image/png, .jpeg, .jpg, image/gif">
+                    </div>
+                    <div class="form-group">
+                        <label class="input-group-text col-md-2"><span style="color: red;">*</span>Rating: </label>
+                        <input type="number" name="rating"  id="rating"  class="form-control">
+                    </div>
+                    <input type="hidden" id="id" value=0>
+                    <small>Chú thích: (<span style="color: red;">*</span>) là bắt buộc</small>
+                    <button type="submit" class="btn-submit">Add</button>
+                </form>
+            </div>
+            <span class="close">&times;</span>
+        </div>
+
+        </div>
+    <div class="content page">
+        <div class="tableItem">
+            <table class="rwd-table">
+                <tr>
+                <th>Tên sản phẩm</th>
+                <th>Hình ảnh</th>
+                <th>Giá bán</th>
+                <th>Quản lý</th>
+                </tr>
+                <tr>
+                <td data-th="title">Muffin xúc xích, phô-mai đặc biệt</td>
+                <td data-th="img"><img width="100px"src="./images/baby/1.png" alt=""></td>
+                <td data-th="price">25000 VND</td>
+                <td data-th="manage"><button style="margin-right: -10px;"type="button" class="btn btn-outline-light">Xóa</button>
+                    <button type="button" class="btn btn-outline-light">Sửa</button>
+                </td>
+                </tr>
+            </table>  
+        </div>        
+    </div>
+</div>
+    </body>
+    </html>
+    <script src="./js/layoutAM.js"></script>
+    <script src="./js/admin_display.js" type="module"></script>
+    <script src="./js/loading.js"></script>

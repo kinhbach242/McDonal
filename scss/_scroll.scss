@@ -1,0 +1,24 @@
+.up{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-color: #DB0007;
+    position: fixed;
+    bottom: 10%;
+    left: 95%;
+    text-align: center;
+    cursor: pointer;
+    display: none; 
+    &:hover{animation: move 1s linear}
+    @keyframes move{
+      10%{
+        bottom: 12%;
+      }
+      50%{
+        bottom: 8%;
+      }
+      100%{
+        bottom: 10%;
+      }
+        
+    }
+}

@@ -1,0 +1,37 @@
+#detail{
+    width: 100%;
+    height: 500px;
+    background-color: #DB0007;
+    margin-top: 110px;
+    .detail-main{
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        &-thump img{
+            width: 450px;
+            height:400px;
+            overflow: hidden;
+        }
+        &-footer {
+            margin-left: 60px;
+            color: white;
+            margin-top: 130px;
+            h5{
+                 font-size: 40px;
+                 font-weight: 600;
+                }
+            }
+            .btn{
+                margin-top: 20px;
+                font-size: 20px;
+                font-weight: 600;
+                width: 250px;
+                background-color: #FFBC0D;
+                &:hover{
+                    background-color: #DB0007;
+                }
+            }
+        }
+
+}
+    

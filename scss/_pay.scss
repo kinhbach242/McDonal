@@ -1,0 +1,166 @@
+.payPage{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+    
+
+.information{
+  width: 80%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-white);
+    margin: 0;
+    &:before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    }
+    h1 {
+        font-weight: 400;
+        line-height: 1.2;
+      }
+      p {
+        font-size: 1.125rem;
+      }
+      
+      
+      p, label {
+        font-weight: 600;
+        font-size: 15px;
+        color: #444;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+      }
+      #dropdown{
+        font-size: 15px;
+      }
+      #name{
+        font-size: 15px;
+      }
+      textarea{
+        width: 500px;
+        height: 100px;
+      }
+      
+      input,
+      button,
+      select,
+      textarea {
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+      }
+      
+      button {
+        border: none;
+      }
+      .header {
+        padding: 0 0.625rem;
+      }
+      
+      .description {
+        font-style: italic;
+        font-weight: 200;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+      }
+      
+      .clue {
+        margin-left: 0.25rem;
+        font-size: 0.9rem;
+        color: #e4e4e4;
+      }
+      
+      .text-center {
+        text-align: center;
+      }
+      form {
+        background: var(--color-darkblue-alpha);
+        padding: 2.5rem 0.625rem;
+        border-radius: 0.25rem;
+      }
+      
+      @media (min-width: 480px) {
+        form {
+          padding: 2.5rem;
+        }
+      }
+      
+      .form-group {
+        margin: 0 auto 1.25rem auto;
+        padding: 0.25rem;
+      }
+      
+      .form-control {
+        display: block;
+        width: 100%;
+        height: 2.375rem;
+        padding: 0.375rem 0.75rem;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      }
+      
+      .form-control:focus {
+        border-color: #80bdff;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+      }
+      .info{
+          color: white;
+          background-color: #42C2DF;
+      }
+}
+#survey-form{
+  box-shadow: 2px 2px 4px #42C2DF;
+}
+.pageCheckout{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  .cart-wrapper__right{
+    margin-top: 60px;
+    width: 40%;
+  }
+}
+.cart-wrapper__right .promo-code {
+  margin-top: 10px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
+.cart-wrapper__right .order-row {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-wrapper__right .order-row__bold {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 0;
+}
+.cart-wrapper__right .total {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-wrapper__right .total p {
+  margin-left: 0;
+  font-weight: bold;
+  font-size: 17px;
+}
+#total{
+  margin-left: 20px;
+}
